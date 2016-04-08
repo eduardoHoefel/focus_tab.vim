@@ -25,6 +25,17 @@ e.g:
 
 	nnoremap <C-W>k :call Move_Up()<CR>
 
+alternatively, you can call Unfocus() to unfocus the current buffer.
+
+it's useful if you want to use another function to change buffer,
+
+like NERDTree's ToggleTab.
+
+e.g:
+
+	nnoremap <silent> <Tab>	:call Unfocus() \| :NERDTreeFocusToggle<CR>
+
+
 
 # TODO:
 	add mouse support
