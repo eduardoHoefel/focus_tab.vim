@@ -1,4 +1,4 @@
-# focus-tab.vim
+# split\_focus.vim
 
 ![demo](Screenshots/demo2.gif)
 
